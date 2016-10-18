@@ -1,5 +1,4 @@
 """ The Python Program scans a text file for a set of tokens """
-"""       Anthony Carrasco  CS355 Programming Languages      """
 
 ''' lex scans for token in a given string '''
 def lexer(arg):
