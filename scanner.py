@@ -1,7 +1,8 @@
 """ The Python Program scans a text file for a set of tokens """
-"""       Anthony Carrasco  CS299 Programming Languages      """
 
 
+
+''' Reads from a file and tokenize the contents '''
 def main():
     file = 'lexer.txt'
 
@@ -15,6 +16,7 @@ def main():
 
 
 ''' lex scans for token in a given string '''
+''' tokens are seperated based on white string '''
 def lexer(lines,lexemes):
     string = lines[:] ##splits the string into tokens by whitespace
     token = ""
